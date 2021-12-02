@@ -118,3 +118,18 @@
     color:rgba(3, 13, 49, 0.712);
     text-align: center;
 }
+@media screen and (min-width: 0px) and (max-width: 1200px){
+    #divh{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #divh img{
+        width: 405px;
+        height: 227px;
+        margin-bottom: 3px;
+    }
+    #sectionh1 p{
+        text-align: center;
+    }
+}

@@ -110,3 +110,8 @@
 .input:active{
     background-color: rgb(196, 151, 68);
 }
+@media screen and (min-width: 0px) and (max-width: 1050px){
+    #sectionf1{
+        height: 100vh;
+    }
+} 
