@@ -1,0 +1,19 @@
+{
+  "name": "shanoufscienceacademy",
+  "version": "1.0.0",
+  "description": "this is a website that will have a try at attracting the general public towards the various wonders of science in order to enlighten innovation among youth",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shanouf",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

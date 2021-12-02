@@ -1,0 +1,120 @@
+/*CSS Reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navigation Bar Styling*/
+#logo{
+    background-color: #14146a;
+    width: 86px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    color:rgb(124, 124, 167);
+    font-weight: bold;
+}
+#container1{
+    display: flex;
+    align-items: center;
+    height: 41px;
+}
+#navbar{
+    background-color: #14146a;
+    height: 43px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+#navbar ul a{
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 20px;
+    color: rgb(160, 160, 187);
+    font-weight: bold;
+}
+#navbar ul li{
+    list-style: none;
+}
+#logo img{
+    height: 40px;
+    width: 51px;
+}
+/*navigation bar with pseudo selectors*/
+#navbar li a:hover{
+    color: blue;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+#navbar li a:active{
+    color: blue;
+    background-color: rgb(212, 153, 42);
+    border-radius: 5px;
+}
+/*footer styling*/
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 22px;
+    background-color: #14146a;
+    color: rgb(160, 160, 187);
+}
+/*styling of the sections*/
+#sectionh1{
+    height: 214px;
+    width: 100%;
+    background: url('static/images/homebg.jpg');
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#7373a7;
+    font-size: 40px;
+    font-weight: bold; 
+    text-shadow: 2px -1px white;
+}
+#divh{
+    display: flex;
+}
+#sectionh2{
+    padding: 44px;
+    background-color:rgb(160, 160, 187);
+}
+#divh img{
+    margin: 5px;
+    height: 227px;
+    box-shadow: 5px 5px 10px 5px #14146a; 
+}
+#hin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: #6666ab;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px darkblue;
+    color: rgba(3, 13, 49, 0.712);
+}
+#pp{
+    text-align: center;
+}
+#hend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hend img{
+    height: 125px;
+}
+#sectionh3 h1{
+    color:rgba(3, 13, 49, 0.712);
+    text-align: center;
+}

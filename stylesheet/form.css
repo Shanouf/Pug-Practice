@@ -1,0 +1,112 @@
+/*CSS Reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navigation Bar Styling*/
+#logo{
+    background-color: #14146a;
+    width: 86px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    color:rgb(124, 124, 167);
+    font-weight: bold;
+}
+#container1{
+    display: flex;
+    align-items: center;
+    height: 41px;
+}
+#navbar{
+    background-color: #14146a;
+    height: 43px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+#navbar ul a{
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 20px;
+    color: rgb(124, 124, 167);
+    font-weight: bold;
+}
+#navbar ul li{
+    list-style: none;
+}
+#logo img{
+    height: 40px;
+    width: 51px;
+}
+/*navigation bar with pseudo selectors*/
+#navbar li a:hover{
+    color: blue;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+#navbar li a:active{
+    color: blue;
+    background-color: rgb(212, 153, 42);
+    border-radius: 5px;
+}
+/*footer styling*/
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 22px;
+    background-color: #14146a;
+    color: rgb(160, 160, 187);
+}
+/*styling of the form*/
+#sectionf1{
+    background-color: rgb(166, 166, 211)
+}
+#sectionf1 h1{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #14146a;
+    text-shadow: 2px 2px white;
+    background-color: rgb(166, 166, 211);
+}
+#formf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(166, 166, 211);
+}
+.inputf{
+    display: inline-block;
+    margin: 8px auto;
+    font-size: 19px;
+    width: 645px;
+    border-radius: 10px;
+    padding: 3px;
+    border: 2px solid #14146a;
+    box-shadow: 4px 3px 10px -1px blue;
+}
+.input{
+    width: 150px;
+    Height: 30px;
+    display: inline-block;
+    margin: 8px auto;
+    cursor: pointer;
+    border: 2px solid #14146a;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.input:hover{
+    background-color: #414194;
+    box-shadow: 2px 2px 5px 3px #14146a;
+}
+.input:active{
+    background-color: rgb(196, 151, 68);
+}

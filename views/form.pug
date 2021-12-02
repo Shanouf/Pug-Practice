@@ -1,0 +1,18 @@
+extends base.pug
+block style 
+ style 
+  include ../stylesheet/form.css 
+block content 
+ section#sectionf1 
+  h1 Fill This Form For Our Personal Guidance Session 
+  form#formf(action="/submit" method="post") 
+   input.inputf(type="text", placeholder="Enter Your Full Name", name="Name")
+   input.inputf(type="text", placeholder="Enter Your College's Name", name="College")
+   input.inputf(type="text", placeholder="Enter Your Favourite Subject", name="Favourite Subject")
+   input.inputf(type="email", placeholder="Enter Your Email Id", name="Email")
+   input.inputf(type="phone", placeholder="Enter Your Phone Number", name="Phone")
+   textarea.inputf(name="Interest of the student", cols="30", rows="10", placeholder="Write About Your Hobbies And Extracurriculars")
+   input.input(type="submit", value="Submit the Form")
+
+
+
